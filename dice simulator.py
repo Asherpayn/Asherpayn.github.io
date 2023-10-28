@@ -1,18 +1,24 @@
+import tkinter as tk
 import random
 
 def roll_dice():
     return random.randint(1, 6)
 
-def main():
-    while True:
-        input("Press Enter to roll the dice...")
-        result = roll_dice()
-        print(f"You rolled a {result}!")
+def roll_button_click():
+    result = roll_dice()
+    result_label.config(text=f"You rolled a {result}!")
 
-        play_again = input("Roll again? (yes/no): ").strip().lower()
-        if play_again != 'yes':
-            break
+# Create the main application window
+app = tk.Tk()
+app.title("Dice Simulator")
 
-if __name__ == "__main__":
-    main()
+# Create a button to roll the dice
+roll_button = tk.Button(app, text="Roll the Dice", command=roll_button_click)
+roll_button.pack(pady=10)
 
+# Create a label to display the result
+result_label = tk.Label(app, text="", font=("Helvetica", 16))
+result_label.pack()
+
+# Run the application
+app.mainloop()
