@@ -9,6 +9,7 @@ p{
 body{
     text-align: center;
     background-color: rgb(0, 0, 255);
+
 }
 
 .button{
@@ -26,8 +27,8 @@ body{
     background-color: blue;
        color: yellow;
        padding: 16px;
-       font-size: 16px;
-       border: none;
+       font-size: 20px;
+       border-radius: 20px;
   }
   
   .dropdown {
