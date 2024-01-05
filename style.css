@@ -1,1 +1,7 @@
-// just in case someone needs this.
+p{
+    color: crimson;
+}
+
+body{
+    text-align: center; background-color: blue;
+}
