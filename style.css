@@ -16,18 +16,22 @@ table, th, td{
   border: 1px solid black;
 }
 
-
-
-
-
-
 .button{
     background-color:blue;
     color:yellow;
     cursor:pointer;
     padding: 10px;
     text-align: center;
+    border-radius: 20px;
+    size-adjust: auto;
 }
+
+
+
+
+
+
+
 
 .dropbtn {
     background-color: blue;
