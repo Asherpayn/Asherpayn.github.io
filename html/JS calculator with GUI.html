@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      .calculator {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .calculator button {
+        font-size: 24px;
+        padding: 10px;
+        background-color: #f2f2f2;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .calculator button:hover {
+        background-color: #e6e6e6;
+      }
+
+      .calculator button:focus {
+        outline: none;
+      }
+
+      .calculator input {
+        font-size: 24px;
+        padding: 10px;
+        text-align: right;
+        background-color: #f2f2f2;
+        border: none;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" id="result" disabled />
+      <button onclick="clearResult()">C</button>
+      <button onclick="backspace()">←</button>
+      <button onclick="insert('%')">%</button>
+      <button onclick="insert('/')">÷</button>
+      <button onclick="insert('7')">7</button>
+      <button onclick="insert('8')">8</button>
+      <button onclick="insert('9')">9</button>
+      <button onclick="insert('*')">×</button>
+      <button onclick="insert('4')">4</button>
+      <button onclick="insert('5')">5</button>
+      <button onclick="insert('6')">6</button>
+      <button onclick="insert('-')">−</button>
+      <button onclick="insert('1')">1</button>
+      <button onclick="insert('2')">2</button>
+      <button onclick="insert('3')">3</button>
+      <button onclick="insert('+')">+</button>
+      <button onclick="insert('.')">.</button>
+      <button onclick="insert('0')">0</button>
+      <button onclick="calculate()">=</button>
+    </div>
+
+    <script>
+      function insert(value) {
+        document.getElementById('result').value += value;
+      }
+
+      function clearResult() {
+        document.getElementById('result').value = '';
+      }
+
+      function backspace() {
+        let result = document.getElementById('result').value.slice(0, -1);
+        document.getElementById('result').value = result;
+      }
+
+      function calculate() {
+        let result = eval(document.getElementById('result').value);
+        document.getElementById('result').value = result;
+      }
+    </script>
+  </body>
+</html>
