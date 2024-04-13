@@ -16,7 +16,7 @@ table, th, td{
   border: 1px solid black;
 }
 
-.button{
+button{
     background-color:blue;
     color:yellow;
     cursor:pointer;
