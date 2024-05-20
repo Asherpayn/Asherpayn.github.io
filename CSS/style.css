@@ -52,9 +52,6 @@ button{
   position: fixed;
   top: 0;
   left: 0;
-  border: 2px solid yellow;
-  border-radius: 20px;
-  padding: 3px;
 }
 
 iframe{
@@ -88,6 +85,9 @@ iframe{
     position: static;
     align-items: center;
     display: inline-block;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    padding: 5px; 
   }
 
   .dropdown-content {
