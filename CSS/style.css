@@ -1,6 +1,6 @@
 h1{
     color: yellow;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Poetsen One";
 }
 
 p{
@@ -29,6 +29,12 @@ body{
 
 .pacifico-regular {
   font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
