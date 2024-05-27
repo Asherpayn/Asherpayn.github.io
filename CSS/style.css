@@ -1,4 +1,4 @@
-h1{
+.Hello{
     color: yellow;
     font-family: "Poetsen One";
     font-size: 50px;
@@ -58,6 +58,10 @@ iframe{
   font-size: large;
 }
 
+.gameslisttitle{
+  color: yellow;
+  font-family: "Poetsen One";
+}
 
 
 
@@ -66,6 +70,7 @@ iframe{
 
 
 
+/*dropdown menu stuff*/
 
 .dropbtn {
     background-color: yellow;
