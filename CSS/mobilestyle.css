@@ -2,4 +2,8 @@ body{
     text-align: center;
     color: yellow;
     background-color: black;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This sets the height of the parent element to the full height of the viewport. */
+  }
