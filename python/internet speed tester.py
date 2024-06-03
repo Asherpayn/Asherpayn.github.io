@@ -10,4 +10,4 @@ pingresult = round(s.results.ping)
 
 print(f"Download speed; {downloadspeed:.2f} Mbps")
 print(f"Upload speed: {uploadspeed:.2f} Mbps")
-print(f"Ping: {pingresult} ms")
+print(f"Ping: {pingresult} Ms")
