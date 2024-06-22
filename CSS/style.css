@@ -1,123 +1,116 @@
-.Hello{
-    color: yellow;
-    font-family: "Poetsen One";
-    font-size: 50px;
+.Hello {
+	color: yellow;
+	font-family: "Poetsen One";
+	font-size: 50px;
 }
 
-p{
-    color: yellow;
+p {
+	color: yellow;
 }
 
-a{
-  color: yellow;
-  border: 10px;
-  border-radius: 10px;
+a {
+	color: yellow;
+	border: 10px;
+	border-radius: 10px;
 }
 
-body{
-    text-align: center;
-    background-color: black;
-    font-family: "Poetsen One";
-    font-size: larger;
+body {
+	text-align: center;
+	background-color: black;
+	font-family: "Poetsen One";
+	font-size: larger;
 }
-
 
 .poetsen-one-regular {
-  font-family: "Poetsen One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Poetsen One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
-
-table, th, td{
-  border: 1px solid white;
-  color: yellow;
+table,
+th,
+td {
+	border: 1px solid white;
+	color: yellow;
 }
 
-button{
-    background-color:yellow;
-    color:yellow;
-    cursor:pointer;
-    padding: 10px;
-    text-align: center;
-    border-radius: 20px;
+button {
+	background-color: yellow;
+	color: yellow;
+	cursor: pointer;
+	padding: 10px;
+	text-align: center;
+	border-radius: 20px;
 }
 
 .navigationsection {
-  position: fixed;
-  top: 0;
-  text-align: left;
+	position: fixed;
+	top: 0;
+	text-align: left;
 }
 
-iframe{
-  border-radius: 20px;
+iframe {
+	border-radius: 20px;
 }
 
-.gamessection{
-  font-family:Arial, Helvetica, sans-serif;
-  font-size: large;
+.gamessection {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
 }
 
-.gameslisttitle{
-  color: yellow;
-  font-family: "Poetsen One";
-  font-size: 35px;
+.gameslisttitle {
+	color: yellow;
+	font-family: "Poetsen One";
+	font-size: 35px;
 }
-
-
-
-
-
-
-
 
 /*dropdown menu stuff*/
 
 .dropbtn {
-    background-color: yellow;
-       color: black;
-       font-size: 20px;
-    border: 1px solid yellow;
-    border-radius: 10px;
-    padding: 20px;
-    font-family: cursive;
-  }
-  
-  .dropdown {
-    position: static;
-    align-items: center;
-    display: inline-block;
-    border: 2px solid yellow;
-    border-radius: 10px;
-    padding: 5px; 
-  }
+	background-color: yellow;
+	color: black;
+	font-size: 20px;
+	border: 1px solid yellow;
+	border-radius: 10px;
+	padding: 20px;
+	font-family: cursive;
+}
 
-  .dropdown-content {
-    display: none;
-    position: relative;
-    background-color: yellow;
-    min-width: 140px;
-    border-radius: 10px;
-    font-family: "Poetsen One";
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 10px;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {
-    background-color:  yellowgreen;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-    border: 1px;
-    border-radius: 10px;
-    padding: 10px;
-  }
-  
-  .dropdown:hover .dropbtn {
-    background-color: rgb(170, 255, 0);
-  }
+.dropdown {
+	position: static;
+	align-items: center;
+	display: inline-block;
+	border: 2px solid yellow;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.dropdown-content {
+	display: none;
+	position: relative;
+	background-color: yellow;
+	min-width: 140px;
+	border-radius: 10px;
+	font-family: "Poetsen One";
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 10px;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: yellowgreen;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	border: 1px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: rgb(170, 255, 0);
+}
