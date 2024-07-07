@@ -1,6 +1,6 @@
 import speedtest
 
-s = speedtest.Speedtest()
+s = speedtest.speedtest()
 
 print ("Testing...\n")
 
