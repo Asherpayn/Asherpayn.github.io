@@ -2,6 +2,13 @@
 	color: yellow;
 	font-family: "Poetsen One";
 	font-size: 50px;
+	opacity: 1;
+	transition: opacity 0.5;
+}
+
+.hello:hover {
+	opacity: 0.5;
+	cursor: pointer;
 }
 
 p {
@@ -12,6 +19,13 @@ a {
 	color: yellow;
 	border: 10px;
 	border-radius: 10px;
+	transition: font-size 0.3s;
+	font-size: larger;
+}
+
+a:hover {
+	font-size: 35px;
+	cursor: pointer;
 }
 
 body {
@@ -25,13 +39,6 @@ body {
 	font-family: "Poetsen One", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-}
-
-table,
-th,
-td {
-	border: 1px solid white;
-	color: yellow;
 }
 
 button {
@@ -81,7 +88,6 @@ iframe {
 	position: static;
 	align-items: center;
 	display: inline-block;
-	border: 2px solid yellow;
 	border-radius: 10px;
 	padding: 5px;
 }
