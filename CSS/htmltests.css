@@ -1,7 +1,32 @@
 body{
     display: flex;
-    justify-content: center;
-    color: aqua;
+    flex-direction: column;
     background-color: black;
-    background-im;
+    align-items: center;
+}
+
+
+
+h1{
+    color: aqua;
+    transition: opacity 0.3s;
+    opacity: 0.5;
+    background-color: black;
+}
+
+h1:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+ul{
+    color: aqua;
+    transition: opacity 0.3s;
+    opacity: 0.5;
+    background-color: black;
+}
+
+ul:hover{
+    opacity: 1;
+    cursor: pointer;
 }
