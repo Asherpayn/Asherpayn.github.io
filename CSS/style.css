@@ -66,7 +66,7 @@ iframe {
 
 /*dropdown menu stuff*/
 
-.dropbtn {
+.dropbtn{
 	background-color: yellow;
 	color: black;
 	font-size: 20px;
@@ -74,6 +74,7 @@ iframe {
 	border-radius: 10px;
 	padding: 20px;
 	font-family: cursive;
+	transition: all .2s ease-in;
 }
 
 .dropdown {
@@ -98,6 +99,7 @@ iframe {
 	color: black;
 	padding: 10px;
 	display: block;
+	transition: all .2s ease-in;
 }
 
 .dropdown-content a:hover {
