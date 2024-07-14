@@ -30,3 +30,24 @@ ul:hover{
     opacity: 1;
     cursor: pointer;
 }
+
+button{
+    color: aqua;
+    background-color: black;
+    border: 3px solid aqua;
+    border-radius: 10px;
+    padding: 20px;
+    transition: opacity 0.3s;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+button:active{
+    color: black;
+    background-image: linear-gradient(45deg, green, lime);
+    border-color: limegreen;
+}

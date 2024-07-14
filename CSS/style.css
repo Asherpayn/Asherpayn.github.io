@@ -33,6 +33,7 @@ body {
 	background-color: black;
 	font-family: "Poetsen One";
 	font-size: larger;
+	background-image: linear-gradient(blue, pink);
 }
 
 .poetsen-one-regular {
@@ -69,6 +70,11 @@ iframe {
 	color: yellow;
 	font-family: "Poetsen One";
 	font-size: 35px;
+}
+
+.footer{
+	color: blue;
+	text-shadow: 10px;
 }
 
 /*dropdown menu stuff*/
@@ -121,4 +127,5 @@ iframe {
 
 .dropdown:hover .dropbtn {
 	background-color: rgb(170, 255, 0);
+	border-color: yellowgreen;
 }
