@@ -1,4 +1,4 @@
-//i have no clue what i am doing 😀
+//I have no clue what I am doing 😀
 
 
 let age = 11 //creating a variable called age
