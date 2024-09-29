@@ -18,4 +18,3 @@ console.log("your age doubled is:", doubledage)
 
 let yearstoadult = subtract(adultage, age) //creates a variable called years to adult that calls the subtract function to subtract age from adultage
 console.log("in", yearstoadult, "years, you will be 18")
-
