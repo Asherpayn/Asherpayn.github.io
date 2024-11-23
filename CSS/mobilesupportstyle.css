@@ -1,7 +1,7 @@
 body {
 	text-align: center;
 	color: yellow;
-	background-color: black;
+	background-image: linear-gradient(blue, #B4DD1E);
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
