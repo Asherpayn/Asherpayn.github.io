@@ -4,10 +4,11 @@
 		<meta charset="UTF-8" >
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 		<link rel="stylesheet" href="/CSS/htmltests.css" >
+		<script async src="/JS/html_tests.js" ></script>
 		<title>One of the old testing tracks</title>
 	</head>
 	<body>
-		<h1><u>I love the Portal games</u></h1>
+		<h1 onclick="this.innerText='MOUSE CLICKED'; this.style.color='Red'"><u>I love the Portal games</u></h1> <!-- a bit of javascript so when the title is clicked it changes to red and says "MOUSE CLICKED"-->
 
 		<button>Slime</button>
 		
@@ -16,9 +17,22 @@
 			<li>Portal 2</li>
 		</ul>
 		
+		<hgroup>
 		<p>Portal 1 and Portal 2 are two of the most critically acclaimed video games of all time.</p>
 		<p>Portal 1, released in 2007, introduced players to the mind-bending world of Aperture Science, where they guided the protagonist Chell through a series of challenging puzzles using a portal gun.</p>
 		<p>Portal 2, released in 2011, expanded on the original's success, adding new gameplay mechanics, a co-op mode, and a darkly comedic narrative that explored the crumbling Aperture Science facility.</p>	
 		<p>Both games are praised for their innovative gameplay, clever writing, and memorable characters, making them timeless classics in the gaming world.</p>
+		</hgroup>
+
+		<br>
+		<br>
+		<input type="range" min="0" max="100" value="50" oninput="this.nextElementSibling.value = this.value; this.nextElementSibling.labels[0].textContent = this.value + '%'"> 
+		<meter min="0" low="25" high="75" max="100" value="50">50%</meter>
+		<br>
+		<br>
+
+
+
+
 </body>
 </html>
