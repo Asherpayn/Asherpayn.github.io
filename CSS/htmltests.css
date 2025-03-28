@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    font-size: 24px;
+}
+
+h1{
+    color: aqua;
+    transition: opacity 0.3s;
+    opacity: 0.5;
+    background-color: black;
+    font-size: 48px;
+}
+
+h1:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+ul{
+    color: aqua;
+    transition: opacity 0.3s;
+    opacity: 0.5;
+    background-color: black;
+    font-size: 24px;
+}
+
+ul:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+button{
+    color: aqua;
+    background-color: black;
+    border: 3px solid aqua;
+    border-radius: 10px;
+    padding: 20px;
+    transition: opacity 0.3s;
+    opacity: 0.5;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+button:active{
+    color: black;
+    background-image: linear-gradient(45deg, green, lime);
+    border-color: limegreen;
+}
+
+p{
+    color: aqua;
+    transition: opacity 0.3s;
+    opacity: 0.5;
+    background-color: black;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+p:hover{
+    opacity: 1;
+    cursor: pointer;
+}
