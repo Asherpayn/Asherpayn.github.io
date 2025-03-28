@@ -1,6 +1,8 @@
 body{
     background-color: black;
     color: yellow;
+    font-family: "Poetsen One";
+    font-size: larger;
     text-align: center;
     display: flex;
     justify-content: flex-start;
