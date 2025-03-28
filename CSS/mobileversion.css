@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: yellow;
+    font-family: "Poetsen One";
+    font-size: larger;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.mobileindicator{
+    border: 2px solid yellow;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100;
+}
+
+.Hello{
+    text-decoration: underline;
+}

@@ -1,14 +1,31 @@
-body {
-	text-align: center;
-	color: yellow;
-	background-image: linear-gradient(blue, #B4DD1E);
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	height: 100vh; /* This sets the height of the parent element to the full height of the viewport. */
+body{
+  text-align: center;
+  font-family: "Poetsen One";
+  color: yellow;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; /* This sets the height of the parent element to the full height of the viewport. */
 }
 
-a {
-	color: yellow;
+a{
+  color: yellow;
+}
+
+button{
+  background-color: yellow;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 2px solid black;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease-in;
+}
+
+button:hover {
+  background-color: black;
+  color: yellow;  
+  border: 2px solid yellow;
 }
