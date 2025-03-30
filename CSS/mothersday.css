@@ -1,0 +1,44 @@
+body {
+    background-color: blue;
+    color: yellow;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+h1:hover {
+    color: palevioletred;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+h1:active {
+    text-transform: uppercase;
+    transition: color 0.5s;
+}
+
+p {
+    font-size: 30px;
+    margin-bottom: 20px;
+    transform: scale(0.9);
+    transition: transform 0.5s;
+}
+
+img {
+    transition: transform 0.5s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+img:active {
+    transform: scale(0.9);
+}

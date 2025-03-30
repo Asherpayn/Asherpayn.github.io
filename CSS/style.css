@@ -1,3 +1,16 @@
+body {
+	text-align: center;
+	background-color: blue;
+	font-family: "Poetsen One";
+	font-size: larger;
+}
+
+.poetsen-one-regular {
+	font-family: "Poetsen One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
 .Hello {
 	color: yellow;
 	font-family: "Poetsen One";
@@ -23,32 +36,26 @@ a {
 	font-size: larger;
 }
 
-a:hover {
-	font-size: 35px;
-	cursor: pointer;
-}
-
-body {
-	text-align: center;
-	background-color: black;
-	font-family: "Poetsen One";
-	font-size: larger;
-	background-image: linear-gradient(blue, #B4DD1E);
-}
-
-.poetsen-one-regular {
-	font-family: "Poetsen One", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-}
-
 button {
-	background-color: yellow;
+		background-color: yellow;
+		color: blue;
+		transition: all .3s ease-in;
+		cursor: pointer;
+		padding: 10px;
+		border: 0px;
+		text-align: center;
+		border-radius: 10px;
+		font-family: "Poetsen One";
+		font-size: 15px;
+}
+
+button:hover {
+	background-color: blue;
+	border: 0px;
+	transition: all .3s ease-in;
+	padding: 20px;
 	color: yellow;
-	cursor: pointer;
-	padding: 10px;
-	text-align: center;
-	border-radius: 20px;
+	font-size: 20px;
 }
 
 .navigationsection {
@@ -61,29 +68,16 @@ iframe {
 	border-radius: 20px;
 }
 
-.gamessection {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: large;
-}
 
-.gameslisttitle {
-	color: yellow;
-	font-family: "Poetsen One";
-	font-size: 35px;
-}
 
-.footer{
-	color: blue;
-	text-shadow: 10px;
-}
 
 /*dropdown menu stuff*/
 
 .dropbtn{
 	background-color: yellow;
-	color: black;
+	color: blue;
 	font-size: 20px;
-	border: 1px solid yellow;
+	border: 2px solid yellow;
 	border-radius: 10px;
 	padding: 20px;
 	font-family: "Poetsen One";
@@ -120,12 +114,14 @@ iframe {
 
 .dropdown:hover .dropdown-content {
 	display: block;
-	border: 1px;
+	border: 2px;
 	border-radius: 10px;
 	padding: 10px;
 }
 
 .dropdown:hover .dropbtn {
-	background-color: rgb(170, 255, 0);
-	border-color: yellowgreen;
+	background-color: yellow;
+	color: blue;
+	border-color: yellow;
+	border: 2px solid yellowgreen;
 }
