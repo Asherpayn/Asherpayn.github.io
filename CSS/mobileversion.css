@@ -1,22 +1,127 @@
-body{
-    background-color: black;
-    color: yellow;
-    font-family: "Poetsen One";
-    font-size: larger;
-    text-align: center;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    height: 100vh;
+body {
+	text-align: center;
+	background-color: blue;
+	font-family: "Poetsen One";
+	font-size: larger;
 }
 
-.mobileindicator{
-    border: 2px solid yellow;
-    border-radius: 10px;
-    padding: 5px;
-    width: 100;
+.poetsen-one-regular {
+	font-family: "Poetsen One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
-.Hello{
-    text-decoration: underline;
+.Hello {
+	color: yellow;
+	font-family: "Poetsen One";
+	font-size: 50px;
+	opacity: 1;
+	transition: opacity 0.5;
+}
+
+.hello:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+p {
+	color: yellow;
+}
+
+a {
+	color: yellow;
+	border: 10px;
+	border-radius: 10px;
+	transition: font-size 0.3s;
+	font-size: larger;
+}
+
+button {
+		background-color: yellow;
+		color: blue;
+		transition: all .3s ease-in;
+		cursor: pointer;
+		padding: 10px;
+		border: 0px;
+		text-align: center;
+		border-radius: 10px;
+		font-family: "Poetsen One";
+		font-size: 15px;
+}
+
+button:hover {
+	background-color: blue;
+	border: 0px;
+	transition: all .3s ease-in;
+	padding: 20px;
+	color: yellow;
+	font-size: 20px;
+}
+
+.navigationsection {
+	position: fixed;
+	top: 0;
+	text-align: left;
+}
+
+iframe {
+	border-radius: 10px;
+}
+
+
+
+
+/*dropdown menu stuff*/
+
+.dropbtn{
+	background-color: yellow;
+	color: blue;
+	font-size: 20px;
+	border: 2px solid yellow;
+	border-radius: 10px;
+	padding: 20px;
+	font-family: "Poetsen One";
+	transition: all .2s ease-in;
+}
+
+.dropdown {
+	position: static;
+	align-items: center;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.dropdown-content {
+	display: none;
+	position: relative;
+	background-color: yellow;
+	min-width: 140px;
+	border-radius: 10px;
+	font-family: "Poetsen One";
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 10px;
+	display: block;
+	transition: all .2s ease-in;
+}
+
+.dropdown-content a:hover {
+	background-color: yellowgreen;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	border: 2px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: yellow;
+	color: blue;
+	border-color: yellow;
+	border: 2px solid yellowgreen;
 }
