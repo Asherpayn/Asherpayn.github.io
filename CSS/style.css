@@ -74,16 +74,6 @@ iframe {
 	transition: opacity 0.3s ease;
 }
 
-/* Hide when parent container has certain class */
-.has-collision iframe {
-  display: none;
-}
-
-iframe.hidden {
-  opacity: 0;
-  pointer-events: none;
-}
-
 /*dropdown menu stuff*/
 
 .dropbtn{
