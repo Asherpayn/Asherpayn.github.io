@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7575289-0926-4e96-abdd-681a2bf7ff98" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +57,7 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "JavaScript Debug.index.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "devcontainer.show.open.project.notification": "false",
     "git-widget-placeholder": "main",
@@ -62,7 +67,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "fr.baretto.ollamassist.setting.OllamassistSettingsConfigurable",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -74,6 +80,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b7575289-0926-4e96-abdd-681a2bf7ff98" name="Changes" comment="" />
@@ -86,6 +95,8 @@
       <workItem from="1746116044423" duration="116000" />
       <workItem from="1749394346161" duration="1114000" />
       <workItem from="1749395479524" duration="1604000" />
+      <workItem from="1749397707402" duration="1782000" />
+      <workItem from="1749399547813" duration="109000" />
     </task>
     <task id="LOCAL-00001" summary="turned link to javascript into a comment because the new layout might work on mobile devices without needing any modifications">
       <option name="closed" value="true" />
@@ -111,7 +122,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749395777119</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="chore: update IDE settings and fix duplicate author entries">
+      <option name="closed" value="true" />
+      <created>1749399289671</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749399289671</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: remove unnecessary whitespace">
+      <option name="closed" value="true" />
+      <created>1749399464916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749399464916</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,9 +157,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CODE_SMELLS_PROFILE" value="Project Default" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="turned link to javascript into a comment because the new layout might work on mobile devices without needing any modifications" />
     <MESSAGE value="Create greetings.yml" />
     <MESSAGE value="moved a line back because it was in the wrong place." />
-    <option name="LAST_COMMIT_MESSAGE" value="moved a line back because it was in the wrong place." />
+    <MESSAGE value="chore: update IDE settings and fix duplicate author entries" />
+    <MESSAGE value="fix: remove unnecessary whitespace" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: remove unnecessary whitespace" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
