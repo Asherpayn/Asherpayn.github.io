@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7575289-0926-4e96-abdd-681a2bf7ff98" name="Changes" comment="">
-      <changelist_data name="Asher Payn" email="asherpayn@gmail.com" automatic="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "fr.baretto.ollamassist.setting.OllamassistSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -87,6 +85,7 @@
       <workItem from="1745856067330" duration="787000" />
       <workItem from="1746116044423" duration="116000" />
       <workItem from="1749394346161" duration="1114000" />
+      <workItem from="1749395479524" duration="1604000" />
     </task>
     <task id="LOCAL-00001" summary="turned link to javascript into a comment because the new layout might work on mobile devices without needing any modifications">
       <option name="closed" value="true" />
@@ -104,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745856693906</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="moved a line back because it was in the wrong place.">
+      <option name="closed" value="true" />
+      <created>1749395777119</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749395777119</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +131,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CODE_SMELLS_PROFILE" value="Project Default" />
     <MESSAGE value="turned link to javascript into a comment because the new layout might work on mobile devices without needing any modifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="turned link to javascript into a comment because the new layout might work on mobile devices without needing any modifications" />
+    <MESSAGE value="Create greetings.yml" />
+    <MESSAGE value="moved a line back because it was in the wrong place." />
+    <option name="LAST_COMMIT_MESSAGE" value="moved a line back because it was in the wrong place." />
   </component>
 </project>
