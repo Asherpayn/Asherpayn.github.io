@@ -9,7 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b7575289-0926-4e96-abdd-681a2bf7ff98" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -96,7 +95,8 @@
       <workItem from="1749394346161" duration="1114000" />
       <workItem from="1749395479524" duration="1604000" />
       <workItem from="1749397707402" duration="1782000" />
-      <workItem from="1749399547813" duration="109000" />
+      <workItem from="1749399547813" duration="311000" />
+      <workItem from="1749421055672" duration="625000" />
     </task>
     <task id="LOCAL-00001" summary="turned link to javascript into a comment because the new layout might work on mobile devices without needing any modifications">
       <option name="closed" value="true" />
@@ -138,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749399464916</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="refactor: update mobile support page layout">
+      <option name="closed" value="true" />
+      <created>1749399813697</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1749399813697</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +171,8 @@
     <MESSAGE value="moved a line back because it was in the wrong place." />
     <MESSAGE value="chore: update IDE settings and fix duplicate author entries" />
     <MESSAGE value="fix: remove unnecessary whitespace" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: remove unnecessary whitespace" />
+    <MESSAGE value="refactor: update mobile support page layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: update mobile support page layout" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
