@@ -20,6 +20,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -36,12 +43,12 @@
     &quot;assignee&quot;: &quot;Asherpayn&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Asherpayn/Asherpayn.github.io.git",
-    "accountId": "cab5a987-867f-49d3-895c-896127b8cd9d"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Asherpayn/Asherpayn.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;cab5a987-867f-49d3-895c-896127b8cd9d&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -59,6 +66,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.index.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
@@ -66,7 +74,6 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "devcontainer.show.open.project.notification": "false",
-    "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
     "last_opened_file_path": "/Users/asherpayn/Documents/GitHub/Asherpayn.github.io",
     "node.js.detected.package.eslint": "true",
@@ -79,6 +86,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CSS/OLD" />
+      <recent name="$PROJECT_DIR$/html/OLD" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

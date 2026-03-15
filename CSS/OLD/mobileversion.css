@@ -37,16 +37,16 @@ a {
 }
 
 button {
-		background-color: yellow;
-		color: blue;
-		transition: all .3s ease-in;
-		cursor: pointer;
-		padding: 10px;
-		border: 0px;
-		text-align: center;
-		border-radius: 10px;
-		font-family: "Poetsen One";
-		font-size: 15px;
+	background-color: yellow;
+	color: blue;
+	transition: all .3s ease-in;
+	cursor: pointer;
+	padding: 10px;
+	border: 0px;
+	text-align: center;
+	border-radius: 10px;
+	font-family: "Poetsen One";
+	font-size: 15px;
 }
 
 button:hover {
@@ -66,17 +66,12 @@ button:hover {
 
 iframe {
 	border-radius: 10px;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 999;
-  margin: 10px; /* Adds breathing room */
-	transition: opacity 0.3s ease;
 }
+
 
 /*dropdown menu stuff*/
 
-.dropbtn{
+.dropbtn {
 	background-color: yellow;
 	color: blue;
 	font-size: 20px;
