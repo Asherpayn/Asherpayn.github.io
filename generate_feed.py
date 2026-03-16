@@ -52,6 +52,8 @@ for p in posts:
     <updated>{date}</updated>
     <summary>{summary}</summary>
     <author><name>{FEED_AUTHOR}</name></author>
+    <icon>{FEED_URL}/icon.png</icon>
+    <logo>{FEED_URL}/icon.png</logo>
   </entry>\n"""
 
 feed = f"""<?xml version="1.0" encoding="utf-8"?>
