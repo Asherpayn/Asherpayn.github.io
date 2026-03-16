@@ -4,7 +4,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
-FEED_TITLE = "Asher's Area'"
+FEED_TITLE = "Asher's Area"
 FEED_ID = "https://asherpayn.uk/atom.xml"
 FEED_AUTHOR = "Asher Payn"
 FEED_URL = "https://asherpayn.uk"
