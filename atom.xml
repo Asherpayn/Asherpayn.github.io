@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Asher's Area'</title>
+  <link href="https://asherpayn.uk"/>
+  <link rel="self" href="https://asherpayn.uk/atom.xml"/>
+  <id>https://asherpayn.uk/atom.xml</id>
+  <updated>2026-03-16T00:00:00Z</updated>
+  <author><name>Asher Payn</name></author>
+  <entry>
+    <title>Setting Up My Own Atom Feed</title>
+    <link href="https://asherpayn.uk"/>
+    <id>https://asherpayn.uk</id>
+    <updated>2026-03-16T00:00:00Z</updated>
+    <summary>I set up a self-hosted Atom feed for my site using a Python script and GitHub Actions. Subscribe at asherpayn.uk/atom.xml.</summary>
+    <author><name>Asher Payn</name></author>
+  </entry>
+</feed>
